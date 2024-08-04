@@ -1,0 +1,154 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image: url('background2.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #eee;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 1.5rem 0; 
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 3rem; 
+}
+
+header nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+header nav ul li {
+  display: inline;
+  margin: 0 20px; 
+}
+
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.5rem; 
+}
+
+header nav ul li a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  margin-top: 2.5rem; 
+  padding: 2.5rem; 
+  border-radius: 8px;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  margin-top: 2.5rem;
+  margin-bottom: 1.5rem;
+  font-size: 2.5rem;
+  color: #fff;
+  text-align: center;
+}
+
+.card {
+  margin-bottom: 2rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border: none;
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.card-title {
+  font-size: 2rem;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-text {
+  font-size: 1.5rem;
+  color: black;
+}
+
+.card-logo {
+  width: 200px;
+  height: auto;
+  margin-left: 10px;
+}
+
+footer {
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 1.5rem 0;
+  margin-top: 2.5rem;
+  text-align: center;
+}
+
+footer p {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+a.link-primary {
+  color: #007bff;
+}
+
+a.link-primary:hover {
+  text-decoration: underline;
+}
+
+.highlight-red {
+  color: red;
+  font-size: 1.5rem; 
+  font-weight: bold;
+}
+
+.highlight-yellow {
+  color: yellow;
+  font-size: 1.5rem; 
+  font-weight: bold;
+}
+
+.highlight-blue {
+  color: blue;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+
+.about-text {
+  font-family: 'Georgia', serif;
+  color: #fff;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.contact-info {
+  text-align: center;
+  color: #fff;
+  font-size: 1.5rem; 
+}
+
+
+.about-image {
+  display: flex;
+  justify-content: center;
+  margin-top: 1.5rem;
+}
+
+.about-image img {
+  width: 300px;
+  height: auto;
+  max-width: 100%;
+}
